@@ -63,5 +63,5 @@ readarray -t movies <<< $(detector)
 if $convert_flag; then
   for mov in "${movies[@]}"; do
     (convert $mov)
-  done  
+  done
 fi
